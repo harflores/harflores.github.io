@@ -21,7 +21,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: Harold
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -40,15 +40,15 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/harflores
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://es.stackoverflow.com/users/143958/harold-flores-suazo
+  - title: linkedin
+    url: https://www.linkedin.com/in/harflores/
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/harflores
 
 # Postal address (add as many lines as necessary)
 address:
