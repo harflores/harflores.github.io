@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2022-07-18
+img: anpropiedades.png
+alt: image-alt
+project-date: Julio 2022
+client: AnPropiedades.cl
+category: Web Development
+description: Desarrollo sitio web anpropiedades.cl Tecnologías usadas Wordpress - MySql - Elementor - CRM Inmobiliario
+---
