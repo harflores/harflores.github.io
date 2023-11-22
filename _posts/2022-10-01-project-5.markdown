@@ -1,9 +1,9 @@
 ---
 title: Reportes Odepa
 layout: default
-modal-id: 0
+modal-id: 5
 date: 2022-10-01
-img: acuanto.gif
+img: reportes.gif
 alt: img-alt
 project-date: Octubre 2022
 client: Oficina de Estudios y Políticas Agrarias - Ministerio de Agricultura 
