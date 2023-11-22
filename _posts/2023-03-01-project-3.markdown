@@ -1,0 +1,12 @@
+---
+title: App Odepa
+layout: default
+modal-id: 3
+date: 2023-03-01
+img: app_odepa.gif
+alt: app odepa reporteros de mercado
+project-date: Marzo 2023
+client: Oficina de Estudios y Políticas Agrarias - Ministerio de Agricultura 
+category: App
+description: App Odepa para reporteros de mercado, el cual contiene 5 modulos, Control de Marca - Precios al consumidor - Mayorista Frutas y Hortalizas, Mayorista Flores y Follajes, Precio Uva vitivinicola. Tecnologías usadas, Flutter - ObjectBox - SpringBoot Java - SQL
+---

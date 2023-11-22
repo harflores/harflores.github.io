@@ -1,0 +1,12 @@
+---
+title: Aramsasol App
+layout: default
+modal-id: 2
+date: 2023-09-01
+img: aramsasol_app.gif
+alt: aramsasol app
+project-date: Septiembre 2023
+client: Aramsasol
+category: Web Development
+description: Aramsasol App - Calculadora para el consumo energético desarrollado en Flutter https://play.google.com/store/search?q=aramsasol&c=apps
+---

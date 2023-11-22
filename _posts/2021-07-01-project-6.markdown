@@ -1,0 +1,12 @@
+---
+title: Aramsasol Web
+layout: default
+modal-id: 6
+date: 2021-07-01
+img: aramsasol.gif
+alt: aramsasol.cl
+project-date: Julio 2021
+client: Aramsasol
+category: Web Development
+description: Desarrollo sitio web para empresa Aramsasol energías renovables, relizada con Wordpress - WooCommerce - TransBank - MySQL
+---
