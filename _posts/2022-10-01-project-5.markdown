@@ -4,7 +4,7 @@ layout: default
 modal-id: 5
 date: 2022-10-01
 img: reportes_odepa.gif
-alt: reportes odepa.gob.cl
+alt: reportes odepa
 project-date: Octubre 2022
 client: Oficina de Estudios y Políticas Agrarias - Ministerio de Agricultura 
 category: Web - API
