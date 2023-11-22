@@ -1,0 +1,13 @@
+---
+title: Reportes Odepa
+layout: default
+modal-id: 1
+date: 2022-10-01
+img: reportes_odepa.gif
+alt: reportes odepa.gob.cl
+project-date: Octubre 2022
+client: Oficina de Estudios y Políticas Agrarias - Ministerio de Agricultura 
+category: Web - API
+description: Proyecto Reportes
+Aplicación WEB desarrollada en https://angular.io/[Angular], https://material.angular.io/[Angular Material], https://www.primefaces.org/primeng/[PrimeNG], SpringBoot Java.
+---
