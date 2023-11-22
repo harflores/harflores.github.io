@@ -39,16 +39,14 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/harflores
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: https://es.stackoverflow.com/users/143958/harold-flores-suazo
   - title: linkedin
     url: https://www.linkedin.com/in/harflores/
   - title: github
     url: http://github.com/harflores
+  - title: stack-overflow
+    url: https://es.stackoverflow.com/users/143958/harold-flores-suazo
+  - title: twitter
+    url: http://twitter.com/harflores
 
 # Postal address (add as many lines as necessary)
 address:
