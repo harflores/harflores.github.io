@@ -8,6 +8,5 @@ alt: img-alt
 project-date: Octubre 2022
 client: Oficina de Estudios y Políticas Agrarias - Ministerio de Agricultura 
 category: Web - API
-description: Proyecto Reportes
-Aplicación WEB desarrollada en Angular, https://material.angular.io/Angular Material, https://www.primefaces.org/primeng/PrimeNG, SpringBoot Java - SQL
+description: Proyecto Reportes Aplicación WEB desarrollada en Angular, https://material.angular.io/Angular Material, https://www.primefaces.org/primeng/PrimeNG, SpringBoot Java - SQL
 ---
