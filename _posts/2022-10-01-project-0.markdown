@@ -1,7 +1,7 @@
 ---
 title: Reportes Odepa
 layout: default
-modal-id: 5
+modal-id: 0
 date: 2022-10-01
 img: acuanto.gif
 alt: img-alt
