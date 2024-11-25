@@ -15,7 +15,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/harflores.github.io/', // Si este es tu repositorio principal de GitHub Pages
+  base: '/', // Si este es tu repositorio principal de GitHub Pages
   // O usa '/nombre-del-repo/' si es un proyecto específico
   optimizeDeps: {
     exclude: ['lucide-react'],
