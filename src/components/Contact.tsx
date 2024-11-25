@@ -1,7 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      await emailjs.send(
+        'YOUR_SERVICE_ID', // Reemplaza con tu Service ID
+        'YOUR_TEMPLATE_ID', // Reemplaza con tu Template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_email: 'harflores.cl@gmail.com',
+        },
+        'YOUR_PUBLIC_KEY' // Reemplaza con tu Public Key
+      );
+      
+      alert('¡Mensaje enviado con éxito!');
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Error al enviar el mensaje. Por favor, intenta nuevamente.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value
+    });
+  };
+
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-6">
@@ -34,7 +76,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                 Nombre
@@ -42,6 +84,9 @@ export default function Contact() {
               <input
                 type="text"
                 id="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               />
             </div>
@@ -52,6 +97,9 @@ export default function Contact() {
               <input
                 type="email"
                 id="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               />
             </div>
@@ -62,14 +110,18 @@ export default function Contact() {
               <textarea
                 id="message"
                 rows={4}
+                value={formData.message}
+                onChange={handleChange}
+                required
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-full bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
+              disabled={loading}
+              className="w-full bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors disabled:opacity-50"
             >
-              Enviar Mensaje
+              {loading ? 'Enviando...' : 'Enviar Mensaje'}
             </button>
           </form>
         </div>
