@@ -16,15 +16,15 @@ export default function Contact() {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Reemplaza con tu Service ID
-        'YOUR_TEMPLATE_ID', // Reemplaza con tu Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID, // Reemplaza con tu Service ID
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Reemplaza con tu Template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_email: 'harflores.cl@gmail.com',
         },
-        'YOUR_PUBLIC_KEY' // Reemplaza con tu Public Key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY  // Reemplaza con tu Public Key
       );
       
       alert('¡Mensaje enviado con éxito!');
