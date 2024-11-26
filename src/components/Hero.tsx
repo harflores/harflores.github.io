@@ -32,7 +32,7 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="src/assets/home/hero.webp"
+              src="https://raw.githubusercontent.com/harflores/harflores.github.io/refs/heads/main/src/assets/home/hero.webp"
               alt="Developer workspace"
               className="rounded-lg shadow-2xl"
             />

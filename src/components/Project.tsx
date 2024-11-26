@@ -13,7 +13,7 @@ const projects: ProjectProps[] = [
   {
     title: 'Portfolio Personal',
     description: 'Sitio web personal desarrollado con React y TypeScript, implementando diseño responsivo y animaciones modernas.',
-    image: 'src/assets/projects/portfolio.png',
+    image: 'https://github.com/harflores/harflores.github.io/blob/main/src/assets/projects/portfolio.png?raw=true',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     demoLink: 'https://harflores.github.io/',
     codeLink: 'https://github.com/harflores/harflores.github.io'
@@ -21,7 +21,7 @@ const projects: ProjectProps[] = [
   {
     title: 'Danich',
     description: 'Optimización y posicionamiento web con tecnicas SEO e implementación de metricas con Google Analytics',
-    image: 'src/assets/projects/danich.png',
+    image: 'https://github.com/harflores/harflores.github.io/blob/main/src/assets/projects/danich.png?raw=true',
     technologies: ['Wordpress', 'Elementor', 'Google Analytics', 'SEO'],
     demoLink: 'https://danich.com/',
     codeLink: '#'
@@ -29,7 +29,7 @@ const projects: ProjectProps[] = [
   {
     title: 'Campobello',
     description: 'Optimización y posicionamiento web con tecnicas SEO e implementación de metricas con Google Analytics',
-    image: 'src/assets/projects/danich.png',
+    image: 'https://github.com/harflores/harflores.github.io/blob/main/src/assets/projects/campobello.png?raw=true',
     technologies: ['Wordpress', 'Elementor', 'Google Analytics', 'SEO'],
     demoLink: 'https://campobello.cl/',
     codeLink: '#'
