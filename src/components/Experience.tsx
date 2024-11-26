@@ -1,5 +1,4 @@
-import React from 'react';
-import { Building2, Users, Phone, Settings } from 'lucide-react';
+import { Building2, Users, Phone, Settings, Sun} from 'lucide-react';
 
 const experiences = [
   {
@@ -33,11 +32,18 @@ const experiences = [
     description: 'Gestión y mantenimiento de infraestructura tecnológica durante el Censo 2024. Soporte técnico y implementación de soluciones para dispositivos móviles y equipos de cómputo.',
     icon: Users,
     skills: ['Soporte Técnico', 'Gestión de Dispositivos', 'Resolución de Problemas', 'Documentación Técnica']
+  }, {
+    title: 'Freelance',
+    company: 'Aramsasol SPA',
+    period: '2019 - presente',
+    description: 'Atención y soporte técnico para servicios móviles y hogar. Mejora de experiencia del cliente y capacitación de personal en políticas empresariales.',
+    icon: Sun,
+    skills: ['Wordpress', 'Woocommerce', 'Transbank', 'MySQL', 'PHP']
   },
   {
     title: 'Ejecutivo de Servicio al Cliente',
     company: 'Claro Chile S.A.',
-    period: '2021 - 2022',
+    period: '2018 - 2022',
     description: 'Atención y soporte técnico para servicios móviles y hogar. Mejora de experiencia del cliente y capacitación de personal en políticas empresariales.',
     icon: Phone,
     skills: ['Atención al Cliente', 'Soporte Técnico', 'Capacitación', 'Resolución de Conflictos']

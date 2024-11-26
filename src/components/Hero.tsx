@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
@@ -33,7 +32,7 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80"
+              src="src/assets/home/hero.webp"
               alt="Developer workspace"
               className="rounded-lg shadow-2xl"
             />

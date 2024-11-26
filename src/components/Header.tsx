@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Code2 className="h-8 w-8 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-800">Harold J Flores Suazo.</span>
+            <span className="text-xl font-bold text-gray-800">Harold Flores Suazo.</span>
           </div>
           
           {/* Desktop Navigation */}

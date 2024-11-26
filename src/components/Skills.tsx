@@ -1,11 +1,10 @@
-import React from 'react';
 import { Code, Server, GitBranch, Users, Globe, Database, Terminal, Brain } from 'lucide-react';
 
 const skillCategories = [
   {
     title: 'Desarrollo Web',
     icon: Globe,
-    skills: ['WordPress', 'JavaScript', 'SEO', 'HTML/CSS', 'React', 'Angular']
+    skills: ['WordPress', 'JavaScript', 'SEO', 'HTML/CSS', 'React', 'Angular', 'Google SEO']
   },
   {
     title: 'Backend & Sistemas',
@@ -30,12 +29,12 @@ const skillCategories = [
   {
     title: 'Base de Datos',
     icon: Database,
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQL Server', 'Optimización']
+    skills: ['MySQL', 'PostgreSQL', 'SQL Server', 'Optimización']
   },
   {
     title: 'Control de Versiones',
     icon: GitBranch,
-    skills: ['Git', 'GitHub', 'GitLab', 'Bitbucket', 'Control de Versiones']
+    skills: ['Git', 'GitHub', 'GitLab','Control de Versiones']
   },
   {
     title: 'Habilidades Blandas',
