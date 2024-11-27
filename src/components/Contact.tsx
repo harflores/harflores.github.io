@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form className="space-y-6" onSubmit={handleSubmit}>
+          {/* <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                 Nombre
@@ -123,7 +123,7 @@ export default function Contact() {
             >
               {loading ? 'Enviando...' : 'Enviar Mensaje'}
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
