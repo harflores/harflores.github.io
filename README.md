@@ -52,32 +52,32 @@ git clone https://github.com/harflores/harflores.github.io.git
 
 2. Instalar dependencias
 
-bash
+```bash
 npm install
-
+```
 3. Configurar variables de entorno
 
-bash
+```bash
 cp .env.example .env
-
+```
 
 Configura las siguientes variables en tu archivo .env:
 
-env
+```env
 VITE_EMAILJS_SERVICE_ID=tu_service_id
 VITE_EMAILJS_TEMPLATE_ID=tu_template_id
 VITE_EMAILJS_PUBLIC_KEY=tu_public_key
-
+```
 4. Iniciar en desarrollo
 
-bash
+```bash
 npm run dev
-
+```
 5. Construir para producción
 
-bash
+```bash
 npm run build
-
+```
 ## 📁 Estructura del Proyecto
 
 src/
