@@ -4,7 +4,7 @@
 Portfolio personal desarrollado con React, TypeScript y Tailwind CSS que muestra mi experiencia profesional, habilidades técnicas y proyectos. El sitio implementa un diseño moderno, responsivo y animaciones fluidas.
 
 ## 📊 Diagrama de Arquitectura
-
+```mermaid
 graph TD
 A[Cliente] -->|Navegación| B[App.tsx]
 B --> C[Componentes]
@@ -18,6 +18,7 @@ I -->|EmailJS| J[Servicio de Email]
 style B fill:#f0f4ff
 style C fill:#e0e7ff
 style D,E,F,G,H,I fill:#c7d2fe
+```
 
 ## ⚡ Características Principales
 - Diseño responsivo con Tailwind CSS
